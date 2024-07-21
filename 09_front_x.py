@@ -12,8 +12,8 @@ antes de combina-las.
 """
 
 def front_x(words):
-    # +++ SUA SOLUÇÃO +++
-    return
+    lista_ordenada = sorted(words, key=lambda word: (word[0] != 'x', word))
+    return lista_ordenada
 
 
 # --- Daqui para baixo são apenas códigos auxiliáries de teste. ---
